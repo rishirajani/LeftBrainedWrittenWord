@@ -8,13 +8,6 @@ This project involves the encoding of textual data found in the TEI XML Edition 
 - the outputs were exported as several CSV files, and
 - the CSV files were uploaded to several relations in a PostgreSQL database.
 
-## Project Members
-
-- **Rishi Anil Rajani (Matrikelnummer: 3746976)**
-- **Sushma Kumari (Matrikuelnummer: 3587711)**
-
-**It is, however, incredibly unfortunate to inform the readers that the entire work behind the project, from ideation, to execution and documentation were completely performed by Rishi Anil Rajani (Matrikelnummer: 3746976), with little to no contribution from other team members.**
-
 ## Project Structure
 
 The project is structured into the following subdirectories:
