@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?><?oxygen RNGSchema="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="xml"?>
+<teiCorpus xmlns="http://www.tei-c.org/ns/1.0" xml:id="HC_XML" n="0.96" version="5.0">
+	<teiHeader>
+		<!--Corpus- and Text-specific metadata.-->
+		<fileDesc>
+			<!--Bibliographic Information.-->
+		</fileDesc>
+		<encodingDesc>
+			<!--Encoding methods, classifications, etc.-->
+		</encodingDesc>
+	</teiHeader>
+	<TEI xml:id="textID" n="partOfCorpus">
+  		<teiHeader>
+  			<!--Text-specific metadata.-->
+  		</teiHeader>
+		<text>
+			<body>
+				<div type="sample" n="sample1">
+					<!--Textual content of the first sample.-->
+				</div>
+				<div type="subdivision">
+					<div type="sample" n="sample2">
+						<!--Textual content of the second sample.-->
+					</div>
+					<div type="sample" n="sample3">
+						<!--Textual content of the third sample.-->
+					</div>
+				</div>
+			</body>
+		</text>
+	</TEI>
+</teiCorpus>
