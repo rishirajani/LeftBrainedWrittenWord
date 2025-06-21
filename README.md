@@ -101,23 +101,31 @@ The database consists of several tables to store information about works, texts,
 ### Creating and Restoring the Database using the Database Dump (Easy Method)
 
 1. **Navigate to the Project's root directory**:
-   ```bash
-   cd /path/to/LeftBrainedWrittenWord```
+   ```
+   bash
+   cd /path/to/LeftBrainedWrittenWord
+   ```
 
 2. **Create the Database and Restore Relations**:
    Execute the following command to create a new database named `lbww` and restore the Project's relations inside `lbww`:
-   ```bash
-   psql -U your_username --command="create database lbww" && pg_restore -U your_username -d lbww -v /path/to/LeftBrainedWrittenWord/3.Access/database_pg_dump.sql```
+   ```
+   bash
+   psql -U your_username --command="create database lbww" && pg_restore -U your_username -d lbww -v /path/to/LeftBrainedWrittenWord/3.Access/database_pg_dump.sql
+   ```
 
 ### Creating the Database from scratch using the Queries (Manual Method)
 
 1. **Navigate to the Project's root directory**:
-   ```bash
-   cd /path/to/LeftBrainedWrittenWord```
+   ```
+   bash
+   cd /path/to/LeftBrainedWrittenWord
+   ```
    
 2. **Connect to a PostgreSQL server**:
-   ```bash
-   psql -U your_username -d postgres```
+   ```
+   bash
+   psql -U your_username -d postgres
+   ```
 
 3. **Create the Database, the Tables, and import their data by running the Queries**:
    Copy the queries from the 3.Access/db_creation_queries.sql and run them in the command line
